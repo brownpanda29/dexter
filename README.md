@@ -21,6 +21,7 @@ import dexter as d  # Import the Dexter encoding library
 ```
 
 # Sample data to encode
+```
 data = "this is secret data"
 
 # Encode the data
@@ -30,3 +31,5 @@ print(f"Encoded: {encoded_data}")
 # Decode the data back to original
 decoded_data = d.decode(encoded_data)
 print(f"Decoded: {decoded_data}")
+
+```
