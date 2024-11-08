@@ -7,10 +7,18 @@
 You can install Dexter via pip:
 
 ```bash
-pip install dexter-encoder
+pip install dexter-encoder 
+```
 
+## Usage
 
+Once installed, you can import the Dexter library and use the `encode()` and `decode()` methods to obfuscate and deobfuscate your data.
+
+### Example:
+
+```python
 import dexter as d  # Import the Dexter encoding library
+```
 
 # Sample data to encode
 data = "this is secret data"
@@ -22,6 +30,3 @@ print(f"Encoded: {encoded_data}")
 # Decode the data back to original
 decoded_data = d.decode(encoded_data)
 print(f"Decoded: {decoded_data}")
-
-Encoded: "1a<shifted chars>bc"
-Decoded: "this is secret data"
