@@ -20,7 +20,7 @@ Once installed, you can import the Dexter library and use the `encode()` and `de
 import dexter as d  # Import the Dexter encoding library
 ```
 
-# Sample data to encode
+# Encoding & Decoding
 ```
 data = "this is secret data"
 
