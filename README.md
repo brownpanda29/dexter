@@ -10,7 +10,8 @@ Dexter is a custom encoding library designed for security professionals and deve
 Install Dexter easily via pip:                          
 ```bash
 pip install dexter-encoder
-```                                                     ## Usage
+```
+## Usage
 
 Once installed, you can import the Dexter library and use the `encode()` and `decode()` methods to obfuscate and deobfuscate your data.
 
