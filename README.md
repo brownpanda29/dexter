@@ -2,7 +2,7 @@
 
 Dexter is a custom encoding library designed for security professionals and developers who need to obfuscate shellcode or sensitive data as part of security testing and analysis. By applying complex encoding rules, Dexter aims to bypass Intrusion Detection Systems (IDS) and evade signature-based detection, making it a valuable tool in controlled, ethical hacking and red team assessments.  
 ## Features
-                                                        - **Advanced Encoding**: Uses dynamic, randomized shifts to obfuscate data effectively.
+- **Advanced Encoding**: Uses dynamic, randomized shifts to obfuscate data effectively.
 - **Simple Interface**: Easy-to-use `encode()` and `decode()` methods for quick encoding and decoding.
 - **Security-Oriented**: Designed to enhance security testing workflows while minimizing the risk of detection.
                                                         ## Installation
